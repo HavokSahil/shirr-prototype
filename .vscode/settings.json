@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "tensor": "cpp",
+        "specialfunctions": "cpp"
+    }
+}

@@ -1,0 +1,138 @@
+name: shirr
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  audioplayers: ^6.4.0
+  audio_streamer: ^4.1.1
+  permission_handler: ^11.4.0
+  path_provider: ^2.1.5
+  file_picker: ^9.0.2
+  wav: ^1.3.0
+  fl_chart: ^0.70.2
+  fftea: ^1.5.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/gif/shirr_intro_dark.gif
+     - assets/images/gif/shirr_intro_light.gif
+     - assets/images/gif/circle_light_top.svg
+     - assets/images/gif/circle_light_mid.svg
+     - assets/images/gif/circle_light_bottom.svg
+     - assets/images/gif/circle_dark_top.svg
+     - assets/images/gif/circle_dark_mid.svg
+     - assets/images/gif/circle_dark_bottom.svg
+     - assets/images/gif/icon_menu_aa.png
+     - assets/images/gif/icon_menu_ag.png
+     - assets/images/gif/icon_menu_av.png
+     - assets/images/gif/icon_menu_aa.svg
+     - assets/images/gif/icon_menu_ag.svg
+     - assets/images/gif/icon_menu_av.svg
+     - assets/sounds/guitar_chord_1.wav
+     - assets/sounds/guitar_chord_2.wav
+     - assets/sounds/guitar_chord_3.wav
+     - assets/images/gif/disk_btn_icon.svg
+     - assets/images/gif/help_btn_icon.svg
+     - assets/images/gif/mic_btn_icon.svg
+     - assets/images/gif/options_btn_icon.svg
+     - assets/images/gif/reset_btn_icon.svg
+     - assets/images/gif/save_btn_icon.svg
+     - assets/images/gif/play_button_dark.svg
+     - assets/images/gif/play_button_light.svg
+     - assets/images/gif/focus_btn_icon.svg
+     - assets/images/gif/intr_btn_icon.svg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: ElMessiri
+      fonts:
+        - asset: assets/fonts/ElMessiri-Bold.ttf
+        - asset: assets/fonts/ElMessiri-Regular.ttf
+
+    - family: Gwendolyne
+      fonts:
+        - asset: assets/fonts/Gwendolyn-Bold.ttf
+        - asset: assets/fonts/Gwendolyn-Regular.ttf
+
+    - family: Zain
+      fonts:
+        - asset: assets/fonts/Zain-Bold.ttf
+        - asset: assets/fonts/Zain-Regular.ttf
+
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
